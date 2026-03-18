@@ -1,59 +1,47 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-</head>
-<body>
+# Wang CryoEM
 
-  <h1>Wang-CryoEM</h1>
+This repository hosts the source files for the Wang CryoEM website, a community resource initiated by Dr. Zhao Wang that highlights news, events, and educational materials related to cryo–electron microscopy (cryoEM).
 
-   <p>
-    Welcome to the Wang CryoEM page, a resource initiated by Dr. Zhao Wang
-    featuring news and updates in the field of cryo–electron microscopy (cryoEM),
-    with a particular emphasis on upcoming talks and community events.
-    </p>
-  <hr>
+---
 
-  <h2>About This Project</h2>
-  <p>
-    This project aims to bring together researchers who are new to cryoEM
-    as well as established and innovative cryoEM and cryo–electron tomography (ET)
-    scientists. By fostering a collaborative and inclusive environment,
-    this platform supports knowledge sharing and professional development
-    within the cryoEM community.
-  </p>
-  <p>
-    We welcome researchers at all career stages and look forward to learning
-    and growing together.
-  </p>
+## Purpose
 
-  <h2>What You’ll Find Here</h2>
-  <ul>
-    <li>Announcements and postings about upcoming cryoEM seminars, workshops, and events</li>
-    <li>Tutorials and technical resources designed for researchers new to cryoEM</li>
-    <li>Information about the research projects of the host, Dr. Zhao Wang, highlighting
-        applications of cryoEM and cryoET in protein structural biology</li>
-  </ul>
+The Wang CryoEM website is intended to support and connect the cryoEM community by sharing information about upcoming seminars, workshops, and research activities. The site aims to be useful to both researchers new to the field and established cryoEM and cryo–electron tomography (ET) scientists.
 
+---
 
-  <h2>Events</h2>
-  <p>
-    Upcoming cryoEM seminars, workshops, and community events
-    will be listed here.
-  </p>
+## Website Content
 
-  <h2>Contact</h2>
-  <p>
-    For additional information, please contact:
-  </p>
-  <p>
-    <strong>Dr. Zhao Wang</strong><br>
-    Co-Director, CryoEM Core<br>
-    Baylor College of Medicine<br>
-    <a href="mailto:zhaow@bcm.edu">zhaow@bcm.edu</a>
-  </p>
+The website currently includes:
+- A homepage introducing the project and its goals
+- An Events page listing upcoming cryoEM-related seminars and talks
+- Information about the research interests of the host, Dr. Zhao Wang
 
+Additional content may be added over time as the site evolves.
 
-</body>
-</html>
+---
+
+## Live Website
+
+The website is hosted using GitHub Pages and can be accessed at:
+
+https://yourusername.github.io/Wang-CryoEM/
+
+---
+
+## Maintenance
+
+This website is maintained by members of the Wang CryoEM group.  
+Event listings and content are updated periodically.
+
+---
+
+## Contact
+
+For questions or additional information, please contact:
+
+**Dr. Zhao Wang**  
+Co-Director, CryoEM Core  
+Baylor College of Medicine  
+zhaow@bcm.edu
