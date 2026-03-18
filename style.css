@@ -1,1 +1,29 @@
 
+/* --- Navigation Bar --- */
+
+nav {
+  background-color: #f2f2f2;   /* light gray background */
+  padding: 10px 15px;
+}
+
+/* Style the links inside the nav */
+nav a {
+  text-decoration: none;       /* remove underline */
+  color: #003366;              /* deep academic blue */
+  font-weight: 600;
+  margin-right: 15px;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* Hover effect */
+nav a:hover {
+  background-color: #dbe6f2;   /* soft blue highlight */
+}
+
+/* Highlight current page link in the nav to indicate
+this is the current location of the guest */
+nav a.active {
+  background-color: #003366;   /* deep academic blue */
+  color: white;
+}
