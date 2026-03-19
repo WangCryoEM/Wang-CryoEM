@@ -38,6 +38,13 @@ body {
   margin: 0;
 }
 
+/* --- Navigation Layout --- */
+.nav-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* --- Page Layout --- */
 main {
   max-width: 900px;
@@ -62,11 +69,11 @@ p {
   margin-bottom: 1.2em;
 }
 
-
 /* --- Horizontal Dividers --- */
 hr {
   border: none;
   border-top: 1px solid #ddd;
   margin: 30px 0;
 }
+
 
