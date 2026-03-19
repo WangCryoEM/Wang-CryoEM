@@ -1,6 +1,5 @@
 
 /* --- Navigation Bar --- */
-
 nav {
   background-color: #003366;   /* deep academic blue */
   padding: 10px 15px;
@@ -27,6 +26,14 @@ this is the current location of the guest */
 nav a.active {
   background-color: white;
   color: #003366;   /* deep academic blue */
+}
+
+/* --- Header Image --- */
+.header-image {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  display: block;
 }
 
 /* --- Global Typography --- */
@@ -85,6 +92,20 @@ hr {
 /* --- Page Background --- */
 body {
   background-color: #f9f9fb;
+}
+
+
+/* --- Footer --- */
+footer {
+  background-color: #f2f2f2;
+  margin-top: 60px;
+}
+.footer-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #555;
 }
 
 
