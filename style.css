@@ -2,14 +2,15 @@
 /* --- Navigation Bar --- */
 
 nav {
-  background-color: #f2f2f2;   /* light gray background */
+  background-color: #003366;   /* deep academic blue */
   padding: 10px 15px;
 }
 
 /* Style the links inside the nav */
 nav a {
   text-decoration: none;       /* remove underline */
-  color: #003366;              /* deep academic blue */
+  color: white;
+  transition: background-color 0.2s ease, color 0.2s ease;
   font-weight: 600;
   margin-right: 15px;
   padding: 6px 12px;
@@ -18,14 +19,14 @@ nav a {
 
 /* Hover effect */
 nav a:hover {
-  background-color: #dbe6f2;   /* soft blue highlight */
+  background-color: #005fa3;   /* blue highlight */
 }
 
 /* Highlight current page link in the nav to indicate
 this is the current location of the guest */
 nav a.active {
-  background-color: #003366;   /* deep academic blue */
-  color: white;
+  background-color: white;
+  color: #003366;   /* deep academic blue */
 }
 
 /* --- Global Typography --- */
@@ -50,6 +51,11 @@ main {
   max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
+
+  /* Visual framing by making background distinct */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px #ddd;
 }
 
 /* --- Headings --- */
@@ -74,6 +80,11 @@ hr {
   border: none;
   border-top: 1px solid #ddd;
   margin: 30px 0;
+}
+
+/* --- Page Background --- */
+body {
+  background-color: #f9f9fb;
 }
 
 
