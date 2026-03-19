@@ -50,7 +50,7 @@ body {
 main {
   max-width: 900px;
   margin: 40px auto;
-  padding: 0 20px;
+  padding: 20px 20px 40px 20px;
 
   /* Visual framing by making background distinct */
   background-color: white;
