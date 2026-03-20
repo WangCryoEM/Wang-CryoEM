@@ -37,16 +37,17 @@ nav a.active {
 }
 /* Left: text */
 .header-text {
-  flex: 1;
+  flex: 0.8;
+  max-width: 380px;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
+  padding: 32px;
 }
 /* Right: image */
 .header-image {
-  flex: 2;
+  flex: 2.2;
 }
 .header-image img {
   width: 100%;
