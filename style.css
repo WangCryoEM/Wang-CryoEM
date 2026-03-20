@@ -28,13 +28,43 @@ nav a.active {
   color: #003366;   /* deep academic blue */
 }
 
-/* --- Header Image --- */
+
+/* --- Split Header Layout --- */
+.site-header {
+  display: flex;
+  min-height: 320px;
+  background-color: #003366;
+}
+/* Left: text */
+.header-text {
+  flex: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+/* Right: image */
 .header-image {
+  flex: 2;
+}
+.header-image img {
   width: 100%;
-  max-height: 280px;
+  height: 100%;
   object-fit: cover;
   display: block;
 }
+.site-title {
+  margin: 0;
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+.site-tagline {
+  margin-top: 12px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
 
 /* --- Global Typography --- */
 body {
