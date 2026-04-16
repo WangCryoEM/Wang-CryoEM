@@ -133,6 +133,15 @@ body {
 }
 
 
+/* Team page photo styling */
+.team-photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 6px;
+}
+
 /* --- Footer --- */
 footer {
   background-color: #f2f2f2;
